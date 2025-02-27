@@ -1,0 +1,230 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7f9;
+    color: #333;
+}
+header {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.lo-mo{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nam{
+    font-size: 2.5rem;
+    margin-bottom: 2.5px;
+    font-weight: 900;
+}
+.moto{
+    margin-top: 1px;
+    font-size: 1.2rem;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("/WhatsApp\ Image\ 2025-02-27\ at\ 17.47.48_62e1eaa5.jpg");
+    background-size: contain;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 90%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+nav ul li a {
+    color: #1e3c72;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+}
+nav ul li a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #2a5298;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    border: 2px solid #1e3c72;
+    width: 400px;
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.search-bar button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #1e3c72;
+    font-size: 20px;
+}
+.auth {
+    display: flex;
+    align-items: center;
+}
+.auth a {
+    color: #1e3c72;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+.auth a:hover {
+    color: #2a5298;
+}
+.profile-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.profile-circle img {
+    width: 100%;
+    height: auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #1e3c72;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2, .footer-section h3 {
+    color: #ffcc00;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #ffcc00;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+.social-icons a{
+    text-decoration: none;
+    color: white;
+}
